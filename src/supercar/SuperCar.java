@@ -12,11 +12,14 @@ import java.util.Scanner;
  * @author jaken
  */
 public class SuperCar {
-
+ public static void cottrellWasHere(){
+        System.out.println("Cottrell was here");
+    }
     /**
      * @param args the command line arguments
      */
        public static void main(String[] args) {
+           cottrellWasHere();
         double total = 0;
         String car;
         String sports;
